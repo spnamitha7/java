@@ -20,5 +20,15 @@ public class jagged {
             }
         }
 System.out.println(sum);
+
+int lar=arr[0][0];
+for(int i=0;i<n;i++){
+    for(int j=0;j<arr[i].length;j++){
+        if(arr[i][j]>=lar){
+            lar=arr[i][j];
+        }
+    }
+}
+System.out.println(lar);
     }
 }
