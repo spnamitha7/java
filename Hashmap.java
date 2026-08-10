@@ -17,5 +17,14 @@ public class Hashmap {
         if(n.containsKey(105)){
             n.remove(105);
         }
+        for(Integer keys:n.keySet()){
+System.out.println(keys);
+        }
+        for(String values:n.values()){
+            System.out.println(values);
+        }
+        for(HashMap.Entry<Integer,String> entry: n.entrySet()){
+            System.out.println(entry);
+        }
     }
 }
